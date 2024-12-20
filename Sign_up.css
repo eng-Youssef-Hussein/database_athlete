@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: -apple-system, sans-serif;
+}
+
+:root {
+    --bg-color:#000;
+    --snd-bg-color:#111;
+    --text-color:#fff;
+    --main-color:#45ffca;
+}
+
+body{
+    background-image: url(no-pain-no-gain-gym-3840x2160-17692.png);
+    background-size: cover;
+}
+
+
+.signing_content{
+    border: 3px solid var(--snd-bg-color);
+    box-shadow:0 0 1.1rem var(--main-color);
+    width: 350px;
+    height: 530px;
+    margin-left: 43%;
+    margin-top: 10%;
+    border-radius: 30px;
+    transition: all 1s ease;
+}
+
+.signing_content:hover{
+    transform: scale(1.2);
+}
+
+.signing_content h1{
+    color: var(--text-color);
+    font-size: 2.25rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+
+.sign_entry input{
+    width: 70%;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 15%;
+    padding-left: 15px;
+    transition: all 0.5s ease;
+}
+
+.sign_entry input:hover{
+    transform: scale(1.07);
+}
+
+
+
+
+
+.sub_button input{
+    width: 100px;
+    height: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    margin-top: 30px;
+    margin-left: 36%;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+
+.sub_button input:hover{
+    transform: scale(1.07);
+    color: #fff;
+    box-shadow:0 0 1.6rem var(--main-color);
+}
